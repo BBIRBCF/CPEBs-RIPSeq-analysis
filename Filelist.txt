@@ -1,7 +1,6 @@
-0.1.align_Bowtie2.sh    Linux shell script with Bowtie2 alignment call
-0.1align_Bowtie2.log    Bowtie2 alignment output logs
-0.2.runfastqc.sh    FastQC
-1.analysis_qc_macs.r    R script with additional QC steps and MACS peak calling
+0.1.align_Bowtie2.sh   Linux shell script with Bowtie2 alignment call
+0.2.runfastqc.sh   Linux shell script with FastQC call
+1.analysis_qc_macs.r   R script with additional QC steps and MACS peak calling
 2.analysis_3utr_longest_deseq2.r    R script with DESeq2 analysis to identify binding targets in 3'UTR sequences
 3.analysis_genelevel_deseq2.r    R script with DESeq2 analysis to identify binding targets in Xenopus laevis genes (2019 data)
 4.analysis_genelevel_allbatches_deseq2.r    R script with DESeq2 analysis to identify binding targets in Xenopus laevis genes (2018+2019 data)
@@ -20,3 +19,4 @@
 13.read_pblat_export.R    R script to parse pblat output
 agsea_20180116    R scripts with functions for roastGSEA
 functions_acaballe_20180116    R scripts with functions for roastGSEA
+### THE END
