@@ -1,0 +1,22 @@
+0.1.align_Bowtie2.sh    Linux shell script with Bowtie2 alignment call
+0.1align_Bowtie2.log    Bowtie2 alignment output logs
+0.2.runfastqc.sh    FastQC
+1.analysis_qc_macs.r    R script with additional QC steps and MACS peak calling
+2.analysis_3utr_longest_deseq2.r    R script with DESeq2 analysis to identify binding targets in 3'UTR sequences
+3.analysis_genelevel_deseq2.r    R script with DESeq2 analysis to identify binding targets in Xenopus laevis genes (2019 data)
+4.analysis_genelevel_allbatches_deseq2.r    R script with DESeq2 analysis to identify binding targets in Xenopus laevis genes (2018+2019 data)
+5.analysis_genelevel_allbatches_roastGSEA.r    R script with functional enrichment analysis in Xenopus laevis genes (2018+2019 data)
+6.analysis_genelevel_allbatches_deseq2_diffbind.r    R script with differential binding analysis in Xenopus laevis genes (2018+2019 data)
+7.1.buildGenomeHomer.sh    Linux shell script to generate Xenopus laevis genome for Homer annotation
+7.2.motifs_homer_marge.r    R script with motif scan in target genes using Homer via R with the marge package
+8.1.analysis_genelevel_allbatches_roastGSEA_withNI.r    R script with functional enrichment analysis in Xenopus laevis genes (2018+2019 data)
+8.2.analysis_genelevel_allbatches_roastGSEA_IP_vs_IP.r    R script with functional enrichment analysis in Xenopus laevis genes (2018+2019 data)
+9.blower_pas-seq_3utr.r    R script for parsing blower pas seq data and export
+10.run_cpescript_blower.sh    Linux shell script to run CPE motif scanning on blower pas seq data
+11.1.motifs_homer_marge_blower.r    R script with motif scan in blower sequences using Homer via R with the marge package
+11.2.motifs_homer_marge_blower_rna.r    R script with motif scan in blower sequences using Homer via R with the marge package (rna option)
+11.3.motifs_homer_marge_blower_subset_rna.r    R script with motif scan in blower sequences using Homer via R with the marge package (rna option, data subset)
+12.run_pblat_3utr_blower.sh    Linux shell script with mapping of blower 3UTR sequences to the Xenopus laevis reference genome
+13.read_pblat_export.R    R script to parse pblat output
+agsea_20180116    R scripts with functions for roastGSEA
+functions_acaballe_20180116    R scripts with functions for roastGSEA
