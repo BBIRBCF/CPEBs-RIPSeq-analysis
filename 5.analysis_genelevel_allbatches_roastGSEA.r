@@ -457,7 +457,7 @@ for (cpeb in 1:4)
         ## load romer results
         load(paste0(res4, sprintf("filemaxmean_CPEB%d.Rdata",cpeb)))
         ##
-        for(gsetsel in gsetselALL[-2]) { # kegg crashes..
+        for(gsetsel in gsetselALL[-2]) { 
             print(gsetsel)
             aa <- romer.maxmean[[gsetsel]]
             genesord <- sapply(aa$index, function(ind) sort(aa$stats[ind]))
@@ -488,7 +488,7 @@ for (cpeb in 1:4)
             colnames(x)[1] <- "gene set"
             write.table(x, file=paste0(res3, gsetsel,"_filemaxmean.xls"), sep="\t", row.names = FALSE)
         }
-    } # its kegg that crashes...
+    } 
 
 
 ###########################################################################
